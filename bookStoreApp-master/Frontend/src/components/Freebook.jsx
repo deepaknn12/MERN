@@ -64,9 +64,7 @@ function Freebook() {
         <div>
           <h1 className="font-semibold text-xl pb-2">Free Offered Courses</h1>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-            Accusantium veritatis alias pariatur ad dolor repudiandae eligendi
-            corporis nulla non suscipit, iure neque earum?
+          At DeepTech Courses, we offer demo lectures for free to give you a sneak peek into the quality of our content. You can explore these free lectures to get a feel of the course material and teaching style. If you find the content valuable, you can visit our course section and purchase the full course to dive deeper and enhance your skills!
           </p>
         </div>
 

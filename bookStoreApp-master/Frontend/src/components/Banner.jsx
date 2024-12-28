@@ -11,9 +11,7 @@ function Banner() {
               <span className="text-pink-500">new everyday!!!</span>
             </h1>
             <p className="text-sm md:text-xl">
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor,
-              et totam. Tempora amet atque expedita, quae corrupti totam sed
-              pariatur corporis at veniam est voluptas animi!
+            DeepTech Courses is your go-to platform for high-quality technical courses. Whether you're a beginner or looking to advance your skills, we offer a wide range of courses to cater to your learning needs. Our mission is to provide expert-led training that is both accessible and affordable, ensuring you stay ahead in the rapidly evolving tech industry. Explore our diverse course catalog and unlock new career opportunities today!
             </p>
             <label className="input input-bordered flex items-center gap-2">
               <svg

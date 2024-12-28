@@ -36,6 +36,7 @@ function Navbar() {
       window.removeEventListener("scroll", handleScroll);
     };
   }, []);
+  
   const navItems = (
     <>
       <li>
@@ -52,6 +53,7 @@ function Navbar() {
       </li>
     </>
   );
+
   return (
     <>
       <div
@@ -61,7 +63,7 @@ function Navbar() {
             : ""
         }`}
       >
-        <div className="navbar ">
+        <div className="navbar">
           <div className="navbar-start">
             <div className="dropdown">
               <div
@@ -91,17 +93,19 @@ function Navbar() {
                 {navItems}
               </ul>
             </div>
-            <a className=" text-2xl font-bold cursor-pointer">bookStore</a>
+            <a className="text-2xl font-bold cursor-pointer">DeepTech Courses</a>
           </div>
           <div className="navbar-end space-x-3">
             <div className="navbar-center hidden lg:flex">
               <ul className="menu menu-horizontal px-1">{navItems}</ul>
             </div>
             <div className="hidden md:block">
-              <label className=" px-3 py-2 border rounded-md flex items-center gap-2">
+              <label className="px-3 py-2 border rounded-md flex items-center gap-2">
                 <input
                   type="text"
-                  className="grow outline-none rounded-md px-1 dark:bg-slate-900 dark:text-white"
+                  className={`grow outline-none rounded-md px-1 ${
+                    theme === "dark" ? "dark:bg-slate-800 dark:text-white" : "bg-white text-black"
+                  }`}
                   placeholder="Search"
                 />
                 <svg
